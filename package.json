@@ -121,7 +121,7 @@
     "dependencies": {
        "htmlparser" : ">=1.7.0",
        "request"    : ">=1.0.0",
-       "cssom"      : ">=0.2.0",
+       "cssom"      : "https://github.com/fgnass/CSSOM/tarball/dynamicLength",
        "contextify" : ">=0.0.3"
     },
     "devDependencies" : {
