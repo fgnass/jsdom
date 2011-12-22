@@ -3,7 +3,7 @@ exports.staff = function() {
 
   var doc = new dom.Document("staff");
 
-  var implementation = new dom.DOMImplementation(doc, {
+  var implementation = new dom.DOMImplementation({
     "XML" : "1.0"
   });
 

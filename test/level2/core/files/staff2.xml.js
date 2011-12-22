@@ -3,7 +3,7 @@ var dom = require(__dirname + "/../../../../lib/jsdom/level2/core").dom.level2.c
 exports.staff2 = function() {
 
   var doc = new dom.Document("html");
-  var implementation = new dom.DOMImplementation(doc, {
+  var implementation = new dom.DOMImplementation({
     "XML" : ["1.0", "2.0"],
     "core": ["1.0", "2.0", "3.0"]
   });

@@ -6,7 +6,7 @@ var util = require("util");
 
   var doc = new dom.Document("html");
 
-  var implementation = new dom.DOMImplementation(doc, {
+  var implementation = new dom.DOMImplementation({
     "HTML" : "1.0",
     "DisableLiveLists" : "1.0"
   });
