@@ -4,7 +4,7 @@ exports.staffNS = function() {
 
   var doc = new dom.Document("staff");
 
-  var implementation = new dom.DOMImplementation(doc, {
+  var implementation = new dom.DOMImplementation({
     "XML" : ["1.0", "2.0"],
     "core": ["1.0", "2.0", "3.0"]
   });

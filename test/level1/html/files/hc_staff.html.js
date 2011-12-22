@@ -3,7 +3,7 @@ exports.hc_staff = function() {
 
   var doc = new dom.Document("html");
 
-  var implementation = new dom.DOMImplementation(doc, {
+  var implementation = new dom.DOMImplementation({
     "HTML" : "1.0"
   });
 
